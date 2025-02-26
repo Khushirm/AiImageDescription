@@ -42,6 +42,10 @@ body {
   color: white;
 }
 
+.btn:disabled {
+  cursor: none;
+}
+
 #description {
   width: 60%;
 }
