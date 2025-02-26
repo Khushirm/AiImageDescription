@@ -1,0 +1,47 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  width: 100dvw;
+  height: 100dvh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 100px;
+  overflow-x: hidden;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+}
+
+#file {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+#btn {
+  padding: 10px;
+  border: 2px solid maroon;
+  color: red;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: maroon;
+  color: white;
+}
+
+#description {
+  width: 60%;
+}
